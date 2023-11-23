@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background: transparent linear-gradient(119deg, #0000a4 0%, #5858c9 100%) 0%
+        0% no-repeat;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+a {
+    color: white;
+    padding: 15px 50px;
+    background: #be3400;
+    border-radius: 8px;
+    font-size: 22px;
+    text-decoration: none;
+}

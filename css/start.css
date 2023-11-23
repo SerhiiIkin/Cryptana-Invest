@@ -1,0 +1,20 @@
+.start {
+    padding: 25px 0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.start__title {
+    color: var(--blue);
+    font-size: 35px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.start__link {
+    background-color: var(--red);
+    color: white;
+    border-radius: 8px;
+    padding: 13px 24px;
+}

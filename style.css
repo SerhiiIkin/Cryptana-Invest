@@ -1,0 +1,13 @@
+@import "css/fonts.css";
+@import "css/reset.css";
+@import "css/variables.css";
+@import "css/header.css";
+@import "css/start.css";
+@import "css/card.css";
+@import "css/slider.css";
+@import "css/form.css";
+@import "css/footer.css";
+
+.logo {
+    max-width: 216px;
+}

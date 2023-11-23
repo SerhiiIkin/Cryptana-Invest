@@ -1,0 +1,40 @@
+
+.cards {
+    padding: 25px 0;
+    display: grid;
+    gap: 25px;
+    justify-content: center;
+    color:white;
+}
+
+.card {
+    max-width: var(--card-size);
+    padding: 19px 25px;
+    background: transparent
+        linear-gradient(236deg, var(--dark-blue) 0%, var(--blue) 100%) 0% 0%
+        no-repeat padding-box;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: start;
+    min-height: 227px;
+}
+
+.card__img {
+    min-height: 41px;
+}
+
+.card__link {
+    padding: 2px 15px;
+    background: var(--red);
+    border-radius: 13px;
+}
+
+@media (min-width: 768px) {
+    .cards {
+        max-width: calc(var(--card-size) * 2);
+        grid-template-columns: repeat(2, 50%);
+        margin: 0 auto;
+    }
+}
